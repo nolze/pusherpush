@@ -1,0 +1,145 @@
+body {
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#333;
+	background:#fafafa;
+	background:#fff;
+}
+
+body:after {
+    content: '\A';
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.5);
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.title {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.title h1 {
+  color: #fff;
+  padding: 2px 4px;
+  background: #666;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#col-button .card {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#col-control .card {
+  max-height: 342px;
+}
+
+#jqDialog_box {
+  z-index: 999;
+}
+
+html, body, .main {
+  height: 100%;
+}
+
+.main {
+  justify-content: center;
+  align-items: center;
+}
+
+.my-label {
+	padding:10px;
+	font-size:25px;
+	background:#3A87AD;
+	color:#fff;
+}
+
+.card-body.card-button {
+  width: 340px;
+  height: 340px;
+}
+
+.card-body {
+  max-height: 340px;
+}
+
+.button {
+	width: 300px;
+	height: 300px;
+	display: block;
+	border-radius: 198px;
+	border: 10px rgba(255, 255, 255, 0.1) solid;
+	font-size: 20px;
+	color: #888;
+	line-height: 300px;
+	text-decoration: none;
+	text-align: center;
+	background: #F2CDCB;
+  transition: none;
+}
+
+.button:hover {
+  transform: translateY(2px);
+	width:296px;
+	height:296px;
+	border-radius:198px;
+}
+
+.button:active{
+  transform: translateY(4px);
+	width:292px;
+	height:292px;
+	border-radius:198px;
+}
+
+#col-button.small .card-body {
+  padding: 0.5rem;
+}
+
+#col-button.small .button-box {
+  width: 90px;
+  margin: 0 auto;
+}
+
+#col-button.small .card {
+  width: 110px;
+  height: 110px;
+  float: left;
+  margin-right: 4px;
+  margin-bottom: 10px;
+}
+
+.button.small {
+	width:90px;
+	height:90px;
+	display:block;
+	border-radius:99px;
+	font-size: 60px;
+	color:#888;
+	line-height:60px;
+	margin: 0px;
+}
+
+.button.small:hover {
+  transform: translate(1px, 1px);
+	width: 88px;
+	height: 88px;
+	border-radius: 99px;
+	text-decoration: none;
+}
+
+.button.small:active{
+  transform: translate(2px, 2px);
+	width: 86px;
+	height: 86px;
+	border-radius: 99px;
+}

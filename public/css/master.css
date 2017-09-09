@@ -1,0 +1,21 @@
+#jqDialog_box {
+    background: gold;
+    position: absolute;
+    width: 270px;
+    height: 69px;
+    border-color: #ccc;
+}
+
+#jqDialog_box {
+    top: 40px !important;
+}
+
+#jqDialog_content {
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    height: 90px;
+    overflow: hidden;
+}
